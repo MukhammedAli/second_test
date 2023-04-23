@@ -6,6 +6,7 @@ import 'package:secondtest/authorization/login_screen.dart';
 import 'package:secondtest/constants/paddings.dart';
 import 'package:secondtest/route/route_constants.dart';
 import 'package:secondtest/widgets/mybutton.dart';
+import 'package:secondtest/widgets/mypasswordtext.dart';
 import 'package:secondtest/widgets/mytextfield.dart';
 
 class RegistrationScreen extends StatelessWidget {
@@ -40,7 +41,7 @@ class RegistrationScreen extends StatelessWidget {
                         ),
                          Padding(
                           padding: ApplicationPaddings.horizontal,
-                          child: MyTextField(label: 'Пароль'),
+                          child: MyPasswordText(label: 'Пароль'),
                         ),
         
                         

@@ -5,6 +5,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:secondtest/constants/paddings.dart';
 import 'package:secondtest/route/route_constants.dart';
 import 'package:secondtest/widgets/mybutton.dart';
+import 'package:secondtest/widgets/mypasswordtext.dart';
 import 'package:secondtest/widgets/mytextfield.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -38,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                        Padding(
                         padding: ApplicationPaddings.horizontal,
-                        child: MyTextField(label: 'Пароль'),
+                        child: MyPasswordText(label: 'Пароль'),
                       ),
 
                       Padding(
